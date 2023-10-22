@@ -76,13 +76,14 @@ h6 {
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: 12px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #header .logo a {
@@ -576,8 +577,13 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 30px;
+  width: auto;
 }
+.services h2 {
+  color: #18d26e;
 
+
+}
 .services .icon-box {
   padding: 60px 30px;
   position: relative;
@@ -613,6 +619,13 @@ section {
 }
 
 .services .icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: #e43c5c;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .icon-box h2 {
   font-size: 48px;
   line-height: 1;
   color: #e43c5c;
