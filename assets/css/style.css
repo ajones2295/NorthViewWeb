@@ -521,14 +521,20 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about{
+  background-color: #111;
+
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
 }
 .about .content p {
-  color: #eb2121;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 15px;
+  color: #ff6a00;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  position:static;
+  text-align: center;
 
 }
 
